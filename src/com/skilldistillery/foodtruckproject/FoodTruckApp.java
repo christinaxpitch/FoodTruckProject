@@ -11,7 +11,7 @@ public class FoodTruckApp {
 
 	public static void main(String[] args) {
 		FoodTruckApp fta = new FoodTruckApp();
-//		fta is an instance of foodtruckapp0 (calling non static)
+//		fta is an instance of foodtruckApp(calling non static)
 		fta.run();
 	}
 
@@ -90,7 +90,7 @@ public class FoodTruckApp {
 		for (int i = 0; i < truckArray.length; i++) {
 			if (truckArray[i] == null)
 				break;
-			System.out.println("Truck " + (i+1) + "- "+ truckArray[i].toString());
+			System.out.println("Truck " + (i+1) + "  "+ truckArray[i].toString());
 			System.out.println("-----------------------------------");
 		}
 	}

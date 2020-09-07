@@ -1,6 +1,6 @@
 ## Food Truck Project
 ### Overview
-This week two project expands upon the knowledge we learned in week one, and complicates it by adding in everything we learned in week two. :) The objective of this program is to create a working food truck rating app with user input. The FoodTruck object class while the FoodTruckApp class contains the methods, while only having one static method (the main method).
+This week two project expands upon the knowledge we learned in week one, and complicates it by adding in everything we learned in week two. :) The objective of this program is to create a working food truck rating app with user input. The FoodTruck is an object class while the FoodTruckApp class contains the calculations and methods, while only having one static method (the main method).
 
 #### Lessons Used
 * Arrays
