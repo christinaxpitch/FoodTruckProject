@@ -91,10 +91,10 @@ public class FoodTruckApp {
 
 	public void listAllTrucks() {
 		for (int i = 0; i < truckArray.length; i++) {
-			if (truckArray[i] == null)
-				break;
+			if (truckArray[i] != null) {
 			System.out.println("Truck " + (i+1) + "  "+ truckArray[i].toString());
 			System.out.println("-----------------------------------");
+		}
 		}
 	}
 
@@ -104,7 +104,7 @@ public class FoodTruckApp {
 
 		for (int i = 0; i < truckArray.length; i++) {
 			if (truckArray[i] == null) {
-				continue;
+				break;
 			} else if (truckArray[i].getNumRating() > rating) {
 				rating = truckArray[i].getNumRating();
 				highestRated = truckArray[i].getName();
