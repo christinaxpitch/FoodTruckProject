@@ -21,10 +21,11 @@ public class FoodTruckApp {
 		System.out.println("\uD83D\uDE9A" + "Welcome to our Food Truck App!" + "\uD83D\uDE9A"
 				+ "\nYou can input and rate up to five trucks...\nhow groovy!" + "\n"
 				+ "\uD83D\uDE9A\t\uD83D\uDE9A\t\uD83D\uDE9A\t\uD83D\uDE9A\t\uD83D\uDE9A");
-// 	 User Story #1	
+		System.out.println("-----------------------------------");
+//		User Story #1	
 		for (int i = 0; i < truckArray.length; i++) {
 			System.out.println("~~You may type quit if you are done~~");
-			System.out.println("Please input the name of the food truck " + (i + 1) + ": ");
+			System.out.println("Please input the name of food truck " + (i + 1) + ": ");
 			String name = scanner.next();
 			if (name.equals("quit") || name.equals("Quit") || name.equals("QUIT")) {
 				break;
@@ -50,11 +51,13 @@ public class FoodTruckApp {
 
 		boolean keepGoing = true;
 		do {
+			System.out.println("-----------------------------------");
 			System.out.println("   \uD83D\uDE9A  *Menu*  \uD83D\uDE9A       ");
 			System.out.println("1. List all food trucks ");
 			System.out.println("2. See the average rating");
 			System.out.println("3. See the highest rated food truck");
 			System.out.println("4. Quit");
+			System.out.println("-----------------------------------");
 //			user story 3
 			
 			int menuChoice;
